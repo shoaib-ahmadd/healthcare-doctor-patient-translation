@@ -1,0 +1,90 @@
+Build a full-stack web application called:
+
+"Healthcare Doctor–Patient Translation Web Application"
+
+This is a time-constrained take-home assignment for a healthcare company. 
+The goal is to demonstrate problem-solving, AI integration, and product thinking.
+The app does NOT need to be perfect, but it must be functional, clear, and explainable.
+
+---------------------------
+CORE REQUIREMENTS (MANDATORY)
+---------------------------
+
+1. ROLES
+- Two roles: Doctor and Patient
+- Each role can select their preferred language (English, Hindi, Spanish etc.)
+
+2. TEXT CHAT WITH TRANSLATION
+- A clean chat interface
+- Messages typed by one role should be translated into the other role’s selected language
+- Show:
+  - Sender role (Doctor / Patient)
+  - Original message
+  - Translated message
+  - Timestamp
+
+3. AI TRANSLATION
+- Use an AI / LLM based translation approach
+- Structure the code cleanly so the AI logic is isolated in one place
+
+4. CONVERSATION PERSISTENCE
+- Messages should persist even after refresh
+- Use a simple persistent store (local storage or lightweight backend)
+
+5. CONVERSATION SEARCH
+- Add a search input
+- Allow searching keywords across past messages
+- Highlight matched text and show surrounding context
+
+6. AI-POWERED SUMMARY
+- Add a “Generate Summary” button
+- Use AI to generate a concise medical summary
+- Try to extract:
+  - Symptoms
+  - Diagnoses
+  - Medications
+  - Follow-up actions
+- Display the summary in a separate panel or modal
+
+---------------------------
+OPTIONAL (DO NOT BLOCK CORE)
+---------------------------
+- Audio recording and playback (if time allows)
+- If partially implemented, leave clear TODO comments
+
+---------------------------
+TECHNICAL GUIDELINES
+---------------------------
+- Use a modern frontend framework (React preferred)
+- Mobile-friendly UI
+- Keep code clean, readable, and well-commented
+- Avoid over-engineering
+- Use sensible defaults
+
+---------------------------
+DEPLOYMENT
+---------------------------
+- The application must be deployed publicly
+- Use Replit deployment or a free hosting option
+- Handle environment variables properly
+- Do NOT hardcode API keys
+
+---------------------------
+DOCUMENTATION (IMPORTANT)
+---------------------------
+Generate a professional README.md that includes:
+- Project overview
+- Features implemented
+- Tech stack used
+- AI tools used
+- Trade-offs and limitations
+- What would be improved with more time
+
+The README should sound honest and engineer-written, not marketing content.
+
+---------------------------
+QUALITY BAR
+---------------------------
+- The project should look like it was built by a real engineer
+- Prioritize correctness and clarity over polish
+- If something is simplified due to time constraints, explain it clearly
